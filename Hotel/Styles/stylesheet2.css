@@ -1,0 +1,111 @@
+/*******************************************BOOKING***********************************************************/
+.booking form input{
+    padding:13px 15px;
+    margin:15px;
+    width:21%;
+    text-transform: uppercase;
+    border:solid white 1px;
+    background-color: black;
+    color:white;
+    border-radius:5px;
+}
+.booking form .promo:hover,.promo:focus,.arival:hover,.arival:focus,.departure:hover,.departure:focus{
+    background-color: white;
+    color:black;
+    transition-duration: 500ms;
+}
+
+.booking .promo{
+    letter-spacing: 3px;
+}
+.booking .promo::placeholder{
+    color:white;
+}
+.booking .btn1{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.booking .btn1:hover{
+    background-color: black;
+    color:white;
+    transition-duration: 500ms;
+}
+.booking{
+    background-color: black;
+}
+.booking label{
+    font-family: calibri;
+    color:white;
+}
+/*************************************************************************************************************************/
+.first{
+    text-align: center;
+    font-family: calibri;
+}
+.first p{
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.first h1{
+    color:#003d79;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+video{
+    width:100%;
+}
+
+/**************************************************************************************************************************/
+.second{
+    text-align: center;
+    font-family: calibri;
+    width: 100%;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+.second .premier,.deluxe,.standard{
+    display: inline-block;
+    width:30%;
+    padding:10px;
+    border:solid 2px white
+}
+.second .premier:hover,.deluxe:hover,.standard:hover{
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
+.second .premier{
+    background-image: url("../images/premier.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.second .deluxe{
+    margin-left:1%;
+    margin-right:1%;
+    background-image: url("../images/deluxe.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.second .standard{
+    background-image: url("../images/standard.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.second .top{
+    font-size:20pt;
+    margin-top:280px;
+}
+.second .btn2{
+    width:120px;
+    height:40px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid #333;
+    margin-bottom:40px;
+}
+.second .btn2:hover{
+    background-color: black;
+    color:white;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
